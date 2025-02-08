@@ -1,0 +1,57 @@
+body{
+    background-color: #393E46;
+    color: #4ECCA3;
+}
+
+#header{
+    text-align: center;
+    margin: 3%;
+    font-size: 7rem;
+    font-weight:900;
+    font-style: italic;
+}
+
+#dice-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    text-align: center;    
+    font-size: 2rem;
+    font-family: 'Indie Flower', serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    margin: 5%;
+    font-family: cursive;
+}
+
+a{
+    color: white;
+    font-style: italic;
+}
+
+a:focus{
+    color: wheat;
+    text-decoration: none;
+}
+
+a:active{
+    color: white;
+    text-decoration: none;
+}
+a:link{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+    background-color: transparent;
+}                           
